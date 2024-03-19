@@ -16,7 +16,7 @@ package image
 import (
 	"fmt"
 
-	tg "github.com/galeone/tfgo"
+	tg "github.com/mrangelba/tfgo"
 	tf "github.com/wamuir/graft/tensorflow"
 	"github.com/wamuir/graft/tensorflow/op"
 )
