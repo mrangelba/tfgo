@@ -14,8 +14,8 @@ limitations under the License.
 package tfgo
 
 import (
-	tf "github.com/galeone/tensorflow/tensorflow/go"
-	"github.com/galeone/tensorflow/tensorflow/go/op"
+	tf "github.com/wamuir/graft/tensorflow"
+	"github.com/wamuir/graft/tensorflow/op"
 )
 
 // Tensor is an high level abstraction for the

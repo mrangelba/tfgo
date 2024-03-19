@@ -14,8 +14,8 @@ limitations under the License.
 package filter
 
 import (
-	tf "github.com/galeone/tensorflow/tensorflow/go"
-	"github.com/galeone/tensorflow/tensorflow/go/op"
+	tf "github.com/wamuir/graft/tensorflow"
+	"github.com/wamuir/graft/tensorflow/op"
 )
 
 // arrays & slices are never immutable, so this must be variables

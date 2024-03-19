@@ -20,8 +20,8 @@ limitations under the License.
 package tfgo
 
 import (
-	tf "github.com/galeone/tensorflow/tensorflow/go"
-	"github.com/galeone/tensorflow/tensorflow/go/op"
+	tf "github.com/wamuir/graft/tensorflow"
+	"github.com/wamuir/graft/tensorflow/op"
 )
 
 // Batchify creates a batch of tensors, concatenating them along the first dimension

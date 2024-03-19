@@ -57,7 +57,7 @@ package main
 import (
         "fmt"
         tg "github.com/galeone/tfgo"
-        tf "github.com/galeone/tensorflow/tensorflow/go"
+        tf "github.com/wamuir/graft/tensorflow"
 )
 
 func main() {
@@ -103,7 +103,7 @@ import (
         "github.com/galeone/tfgo/image"
         "github.com/galeone/tfgo/image/filter"
         "github.com/galeone/tfgo/image/padding"
-        tf "github.com/galeone/tensorflow/tensorflow/go"
+        tf "github.com/wamuir/graft/tensorflow"
         "os"
 )
 
@@ -194,7 +194,7 @@ package main
 import (
         "fmt"
         tg "github.com/galeone/tfgo"
-        tf "github.com/galeone/tensorflow/tensorflow/go"
+        tf "github.com/wamuir/graft/tensorflow"
 )
 
 func main() {

@@ -17,10 +17,10 @@ import (
 	"fmt"
 	"strings"
 
-	tf "github.com/galeone/tensorflow/tensorflow/go"
-	"github.com/galeone/tensorflow/tensorflow/go/op"
 	tg "github.com/galeone/tfgo"
 	"github.com/galeone/tfgo/image/padding"
+	tf "github.com/wamuir/graft/tensorflow"
+	"github.com/wamuir/graft/tensorflow/op"
 )
 
 // ReadJPEG reads the JPEG image whose path is `imagePath` that has `channels` channels

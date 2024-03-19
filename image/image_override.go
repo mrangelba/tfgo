@@ -14,7 +14,7 @@ limitations under the License.
 package image
 
 import (
-	tf "github.com/galeone/tensorflow/tensorflow/go"
+	tf "github.com/wamuir/graft/tensorflow"
 )
 
 // ------

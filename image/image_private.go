@@ -16,9 +16,9 @@ package image
 import (
 	"fmt"
 
-	tf "github.com/galeone/tensorflow/tensorflow/go"
-	"github.com/galeone/tensorflow/tensorflow/go/op"
 	tg "github.com/galeone/tfgo"
+	tf "github.com/wamuir/graft/tensorflow"
+	"github.com/wamuir/graft/tensorflow/op"
 )
 
 func boxes2batch(scope *op.Scope, boxes []Box) tf.Output {

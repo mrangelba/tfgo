@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"math"
 
-	tf "github.com/galeone/tensorflow/tensorflow/go"
+	tf "github.com/wamuir/graft/tensorflow"
 )
 
 // IsInteger returns true if dtype is a tensorflow integer type

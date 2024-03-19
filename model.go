@@ -18,7 +18,7 @@ import (
 	"os"
 	"runtime"
 
-	tf "github.com/galeone/tensorflow/tensorflow/go"
+	tf "github.com/wamuir/graft/tensorflow"
 )
 
 // Model represents a trained model
