@@ -1,6 +1,6 @@
 module github.com/mrangelba/tfgo
 
-go 1.22
+go 1.22.1
 
 require github.com/wamuir/graft v0.7.0
 
